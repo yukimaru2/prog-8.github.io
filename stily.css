@@ -1,0 +1,873 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+  font-size: 100%;
+    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+}
+
+
+body {
+  background-color: #fff;
+  color: #000;
+  font-size: 0.875rem;
+}
+
+a {
+  color: #000;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.logo h1 {
+  width: 130px;
+  display: flex;
+ margin-top: 6px;
+    
+}
+
+.logo_img img {
+    width: 90%;
+}
+
+
+.form {
+    margin: 13px;
+}
+
+
+
+#header {
+  padding: 0 ;
+    height: 100px;
+    
+}
+
+#header ul {
+    display: flex;
+}
+
+
+
+form, input {
+  margin: 0; /* マージンをリセット */
+}
+form {
+  position: relative; /* 基準位置とする */
+}
+input[type="search"] {
+  background-color: #f8d99f;
+    border-radius: 30px;
+  border: 0;
+   font-size: 1.3rem; 
+  height: 40px; /* 高さ30px */
+  width: 200px;
+  padding: 0 50px; 
+  position: absolute; /* 絶対配置 */
+  left: 0px;
+  top: 12px; 
+}
+input[type="image"] {
+  border: 0;
+  padding: 0;
+  width: 25px;
+  height: 30px; 
+  position: absolute; /* 絶対配置 */
+  left: 210px; 
+  top: 16px;
+}
+
+.inner {
+    display: flex;
+}
+
+.nav_content {
+    margin-left: 1000px;
+}
+
+
+
+.nav_content li{
+    padding-top: 26px;
+  
+}
+
+.nav_content li img {
+    width: 50%;
+}
+
+.menu img {
+    width: 40%;
+}
+.menu_content {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    
+    .logo_img {
+        width: 70%;
+    }
+    
+    #header {
+        height: 50px;
+
+    }
+  
+.logo_img img {
+    width: 100%;
+}
+    
+    
+    .nav_content li {
+        padding-top: 12px;
+        width: 40px;
+    }
+    
+    .nav_item img {
+    width: 55%;
+}
+
+    .nav_list {
+        margin-left: 130px;
+    }
+    
+    .search {
+        display: none;
+    }
+   
+  
+    
+    .menu a img {
+        width: 60%;
+        padding-top: 0;
+    }
+    
+    .nav_item {
+       display: none;
+    }
+    
+  
+    
+    
+.logo h1 {
+  width: 60px;
+  display: flex;
+ margin-top: 6px;
+    
+}
+
+   
+    
+ input[type="search"] {
+  background-color: #f8d99f;
+    border-radius: 20px;
+  border: 0;
+  height: 15px; 
+  width: 70px;
+  padding: 0 0 0 20px;
+  position: absolute; /* 絶対配置 */
+  left: 0px;
+     font-size: 8px;
+  
+}
+input[type="image"] {
+  border: 0;
+  padding: 0;
+  width: 12px;
+  height: 20px; 
+  position: absolute; /* 絶対配置 */
+  left: 90px; 
+ 
+}
+    
+    
+.form {
+  margin: 0; /* マージンをリセット */
+    
+}
+    
+   
+    .nav_content {
+        margin-left: 60px;
+    }
+      
+    
+}
+
+
+.list {
+    background-color: #e6c996;
+    width: auto;
+    height: 60px;
+}
+
+.list  ul {
+    display: flex;
+    padding-left: 20px;
+}
+
+.list ul li {
+    padding-left: 205px;
+    padding-top: 15px;
+    
+    
+}
+
+.list ul li a {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media (max-width: 700px) {
+    
+    
+    .list {
+    background-color: #e6c996;
+    width: auto;
+    height: 40px;
+    padding: 0 5px;
+}
+
+    .list ul {
+        padding-top: 11px;
+        
+        padding-left: 25px;
+        
+    }
+
+    
+    .list ul li {
+          display: flex;
+        list-style: none;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 0;
+       
+    
+    
+}
+    
+    .list ul li a {
+    font-size: 10.5px;
+    font-weight: 500;
+        padding-bottom: 10px;
+}
+    
+ 
+    
+}
+/*media*/
+
+.sub_ttl {
+  text-align: center;
+  margin: 80px auto 50px;
+      
+}
+
+.sub_ttl_news {
+    
+   text-align: center;
+  margin: 80px auto 50px;
+      
+}
+
+.sub_ttl_news img {
+    width: 11%;
+}
+
+.sub_ttl img {
+    width: 12%;
+}
+
+.sub_ttl_1 img {
+    width: 30%;
+}
+
+.sub_ttl_1 {
+  text-align: center;
+  margin: 80px auto 50px;
+      
+}
+ 
+
+@media (max-width: 700px) {
+    
+    .sub_ttl_news  {
+         margin :65px auto 35px;
+    }
+    
+    .sub_ttl_news img {
+    width: 31%;
+}
+    
+    .sub_ttl img {
+        width: 27%;
+    }
+    
+    .sub_ttl {
+        margin: 65px auto 35px;
+    }
+    
+    .sub_ttl_1 {
+         margin: 65px auto 35px;
+    }
+    
+    .sub_ttl_1 img {
+        width: 60%;
+    }
+    
+}
+/*media*/
+
+.kashi img {
+    width: 80%;
+}
+/* ここからがニュース記事のCSS */
+
+.waku {
+    border: solid 1px #70665d;
+    border-radius: 30px;
+}
+
+.waku_1 {
+    border: solid 1px #70665d;
+    border-radius: 30px;
+    width: 700px;
+   margin: 120px 0 120px 400px;
+}
+
+.content {
+    padding: 0 auto;
+}
+
+.news_list {
+  margin: 0 5%;
+}
+
+.news_list_item {
+  padding: 25px 0;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.news_list_item:first-child {
+  border-top: 1px solid #E6E6E6;
+}
+.news_list_item a {
+ position: relative;
+ display: flex;
+ padding-right: 30px;
+}
+
+.news_list_date {
+  font-size: 15px;
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+}
+
+.news_item {
+  background: #f8d99f;
+  border-radius: 14px;
+  width: 6em;
+  /* 親要素の文字サイズを基準 */
+  text-align: center;
+  margin-left: 20px;
+}
+
+.arrow {
+  width: 25px;
+  height: 1px;
+  background: #707070;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.arrow::after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 1px;
+  background: #707070;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 0px;
+  bottom: 2px;
+}
+
+@media (max-width: 700px) {
+    
+  .site_item {
+        display: none;
+    } 
+    
+    .news_list_item {
+        margin-right: 0;
+    }
+    
+    .news_list {
+        margin: 0;
+    }
+    
+    .news_list_date {
+        margin-right: 0 ;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    
+    .arrow {
+        margin-right: 60px;
+    }
+
+
+}
+
+/*media*/
+
+/*商品*/
+
+.merchandise ul  {
+    display: flex;
+}
+
+.merchandise_1 ul {
+ display: flex;
+}
+
+.merchandise ul li img {
+   width: 80%;
+    height: auto;
+    padding-top: 30px;
+}
+
+.merchandise_1 ul li img {
+  
+    height: auto;
+    width: 90%;
+    padding-top: 50px;
+}
+
+.merchandise ul li {
+   margin-left: 50px;
+}
+
+.merchandise_1 ul li {
+   margin-left: 40px;
+}
+
+@media (max-width: 700px) {
+    
+    .merchandise_1 ul li {
+        margin-left: 40px;
+        margin-right: 0;
+    }
+    
+    .merchandise ul {
+        display: block;
+    }
+    
+    .merchandise_1 ul {
+        display: block;
+    }
+    
+    .merchandise ul li img  {
+        width: 80%;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        padding-top: 0;
+    }
+    
+    .img_1 {
+        padding-top: 50px;
+    }
+    
+    .text {
+        margin-bottom: 40px;
+    }
+    
+    .merchandise ul li p {
+      margin-left: 20px;
+      margin-top: 10px;
+       
+}
+    
+    
+    .merchandise ul li {
+   margin-left: 40px;
+}
+    .name {
+       margin-left: 20px;
+    }
+  
+    .price {
+        margin-left: 23px;
+    }
+    
+  
+}
+
+
+.name {
+    margin-bottom: 0;
+    padding-left: 45px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+
+.tea-name {
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+
+.name_1 {
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.price {
+    font-size: 1.2rem;
+    padding-left: 45px;
+}
+.price_1 {
+     font-size: 1.2rem;
+}
+
+.tea-price {
+    font-size: 1.2rem;
+    padding-left: 20px;
+}
+
+.merchandise ul li p {
+  padding-left: 45px;
+    padding-top: 5px;
+    width: 220px;
+    padding-bottom: 30px;
+   
+}
+
+#tea ul li p {
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 230px;
+}
+
+.merchandise_1 ul li p {
+    width: 200px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    
+}
+
+.tea img {
+    width: 20%;
+    margin-left: 60px;
+}
+
+#tea img {
+    margin-top: 40px;
+}
+.kashi_img img {
+    
+width: 65%;
+}
+
+#tea ul {
+    display: flex;
+    padding-left: 40px;
+    margin-left: 60px;
+}
+
+.kasi img {
+    
+    width: 13%;
+    margin-left: 60px;
+}
+
+
+/*ボタンの形状*/
+.float3{
+  position:relative;
+  top:0;
+    padding:10px 20px;
+    display: inline-block;
+    border: 1px solid #333;
+    border-radius: 40px;
+    background-color: #fff;
+    text-decoration: none;
+    outline: none;
+    width: 20%;
+    font-size: 1.5rem;
+    text-align: center;
+    /*アニメーションの設定*/
+    transition: all .3s;
+}
+
+/*hoverをしたらボックスに影がつき、上に上がる*/
+.float3:hover {
+  top:-3px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    background-color: #f2db8d;
+    border-bottom: 2px solid #333;
+    margin-bottom: 0.2rem;
+    font-weight: bold;
+}
+.buton {
+    text-align: center;
+    margin: 60px 0;
+}
+
+@media (max-width: 700px) {
+    
+    #tea ul li p {
+    padding: 10px 0 30px 22px;
+        width: 250px;
+}
+    
+    .merchandise_1 ul li img {
+        width: 90%;
+    }
+    
+    #tea ul {
+        display: block;
+        margin-left: 10px;
+    }
+    
+   
+    .kashi_img img {
+        width: 90%;
+        margin-right: 40px;
+    }
+    
+    .float3 {
+        width: 220px;
+    }
+    
+    .kasi img {
+        width: 50%;
+        margin-left: 80px;
+    }
+    .tea img {
+        width: 80%;
+       margin-left: 45px;
+    }
+    
+    .tea-price {
+    font-size: 1.2rem;
+    padding-left: 23px;
+}
+    
+    .tea-name {
+        padding-top: 18px;
+    }
+
+    .name_1 {
+    padding-top: 18px;
+}
+    .merchandise_1 ul li p {
+    width: 290px;
+        padding-top: 10px;
+        margin-bottom: 0;
+}
+    .text_1 {
+        padding-bottom: 30px;
+    }
+    
+}
+
+
+
+
+
+.info dt {
+    float: left;
+}
+
+.info dd {
+    margin-left: 100px;
+    margin-bottom: 13px;
+}
+
+.info {
+    margin-left: 110px;
+}
+
+
+
+.company_overview {
+    display: flex;
+}
+
+
+.company h2 {
+    margin-top: 60px;
+    padding-left: 110px;
+}
+
+.img img {
+    border-radius: 20px;
+}
+
+.companyovervew {
+    width: 800px;
+    height: 400px;
+    background-color: #f7e8b6;
+    font-size: 1.2rem;
+    border-radius: 0 20px 20px;
+    margin-top: 60px;
+} 
+
+#company {
+    margin-bottom: 80px;
+}
+
+@media (max-width: 700px) {
+    
+    
+    
+    .company_overview {
+        display: block;
+    }
+    
+    #company {
+        margin-bottom: 50px;
+    }
+    
+    .companyovervew {
+        width: auto;
+        margin-top: 0px;
+         border-radius: 20px;
+        height: 330px;
+        
+    }
+    
+    .company h2 {
+    margin: 0 0 0 40px;
+        padding-top: 40px;
+        padding-left: 0;
+        
+}
+   .info {
+    margin-left: 40px;
+} 
+    .info dd {
+    margin-left: 100px;
+    margin-bottom: 12px;
+        font-size: 15px;
+}
+    
+    .info dt {
+        font-size: 15px;
+} 
+    .info {
+        margin-top: 20px
+    } 
+}
+
+/*media*/
+
+footer {
+    background-color: #e6c996;
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer ul li {
+    padding-left: 40px;
+    padding-top: 40px;
+    font-size: 16px;
+}
+
+.information {
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 0 0 0;
+}
+
+
+
+
+
+.time {
+    
+    text-align: center;
+    font-size: 14px;
+    padding-left: 17px;
+    margin: 0 0 30px 0;
+}
+
+.tel {
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+
+/*ipone*/
+
+@media (max-width: 600px) {
+ .waku_1 {
+    margin: 0 0  50px 25px;
+     width: 330px;
+} 
+    .footer ul {
+    display: block;
+    padding: 30px 0;
+}
+    .footer ul li {
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.information {
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 0 0 0;
+}
+
+.time {
+    
+    text-align: center;
+    font-size: 14px;
+    padding-left: 17px;
+    margin: 0 0 30px 0;
+}
+
+.tel {
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 20px;
+}
+    
+}
